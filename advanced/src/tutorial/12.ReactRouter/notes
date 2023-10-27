@@ -1,0 +1,9 @@
+It is a single page application.
+not page refreshing ,only link is changing.
+usually we will wrap our all aplication in a Router,Here we are only covering it in Router folder.
+Inside router add Route it has path ="/",/ is domain or home page and element where we specify comp name
+
+Error
+if link doesnt exit we wil set an error page,for setting up error component ,path ='\*',
+
+Link to helps to navigae to diff page

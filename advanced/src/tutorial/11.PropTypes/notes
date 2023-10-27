@@ -1,0 +1,10 @@
+it allows us to validate props that are passed in to component.
+In that api for last object it does nt have image
+value is not there.
+url is an object of image property.
+it is dyanmic so it will show an error
+so to check we have a function called proptyopes
+if using so they will give a warining
+so then we can avoid error by add default props.
+also using OR operator
+tetsing.js rfcpe we will get porptype,shortcut

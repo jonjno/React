@@ -1,0 +1,35 @@
+React is basically fast.
+here are some optimisation techniques,
+But it use add htier own costs,They use computation power,memory
+Memomosing which means caching result,simply remembring values.It is a comp value not react word.
+How they work and where we can use them
+
+react memo
+in biglist ther is an useeffect
+everytime count is changing ,it is triggering the rerender,the biglist ,it has singleproduct,which again rerender the useeffect
+
+solution is React Memo
+add reactMemo in in biglist wrap.it is fucntion add entire compont in that memon fun
+
+it is checking the memoised value.If the prop here it is product if it is not changing then we are not triggering the rerender
+
+useCallback
+
+similer to react memon ,it checjs the value of the fucntion chnages,if the value change
+wrao that function inside usecallback.
+And also add dependancy array
+
+addtocart it always gonna be o because we used usecallback,It updates the value in UI but will not create the function everytime when the value changes
+
+useMemo
+
+React Mmeo looks if props chnage
+Usememo is seocefically for value
+
+everytime count chnages the consolelog hello will also print,
+because props chnaes,that data
+that is product we are passing
+so instaed pf direclt passing the product to data
+we first memoised it using useMemo
+
+we remember the value using usememo and only when the priducts, data chnage only then we run the function one more time and calculate the value

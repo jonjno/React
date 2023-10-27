@@ -1,0 +1,15 @@
+Things outside of the component including changing document title,fetching data,setting up event listner.
+2 times consoling because of react strict mode.App inside react strict mode.if we remove only one time its console log.
+
+useeffect is used when to settup some side effect that is some work outside of the component.
+what ever function is included in the call back function of useeffect it will start working after every rerender.
+
+Hooks like useeffect,use state cannot be uncluded in the condition like if (condition){usestate}
+
+inside the call back function we can add condition
+
+Array of dependancy.[],It will only run in intial render
+
+we can have many no of useEffect.
+callback function inside the useeffect should not be asyn await as it return promise.
+but inside callback function we can write async await.

@@ -1,0 +1,6 @@
+Fist craete context React.createContext
+two component = provider,consumer
+find root componnet return root comp wrap in perosn context and in provider
+it should have a value inside value we are giving value or fuction to be passed.
+whereever it want use usecontext
+value ={{}} convert it into jxs

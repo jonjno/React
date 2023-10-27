@@ -1,0 +1,5 @@
+inorder to use certain code we can use custom hooks use fetch.
+instead of setting up everything we can reuse it
+we are not allowed to use hooks insode a regular fucntion.
+eaither the function needs to be component or custoem Hooks
+when using custom hook we need to use term "use"
